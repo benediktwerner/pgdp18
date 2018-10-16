@@ -1,0 +1,9 @@
+{% if include.type == "danger" %}
+<div markdown="span" class="alert alert-danger" role="alert"><b>{{include.heading | default: "Achtung:"}}</b> {{include.content}}</div>
+{% elsif include.type == "warning" %}
+<div markdown="span" class="alert alert-warning" role="alert"><b>{{include.heading | default: "Achtung:"}}</b> {{include.content}}</div>
+{% elsif include.type == "success" %}
+<div markdown="span" class="alert alert-success" role="alert"><b>{{include.heading | default: "Info:"}}</b> {{include.content}}</div>
+{% else %}
+<div markdown="span" class="alert alert-primary" role="alert"><b>{{include.heading | default: "Info:"}}</b> {{include.content}}</div>
+{% endif %}

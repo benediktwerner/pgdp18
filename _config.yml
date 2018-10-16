@@ -1,0 +1,30 @@
+title: PGdP Tutorium Benedikt Wener - WS 2018/19
+description: >- # this means to ignore newlines until "baseurl:"
+  Tutorium PGdP WS 2018/19 von Benedikt Werner
+
+baseurl: "/~wernerbe/pgdp18" # the subpath of your site, e.g. /blog
+url: "http://home.in.tum.de" # the base hostname & protocol for your site, e.g. http://example.com
+lang: de
+
+google_analytics: "UA-77720638-2"
+
+email: benedikt.werner@tum.de
+github_username: benediktwerner
+telegram_username: benediktwerner
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,40 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Kontakt</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <ul class="contact-list">
+            {% if site.telegram_username %}
+            <li>
+                <i class="fa fa-telegram fa-fw fa-lg"></i>
+                <a href="https://t.me/{{ site.telegram_username }}">
+                    {{ site.telegram_username }}
+                </a>
+            </li>
+            {% endif %}
+            {% if site.github_username %}
+            <li>
+                <i class="fa fa-github fa-fw fa-lg"></i>
+                <a href="https://github.com/{{ site.github_username }}">
+                    {{ site.github_username }}
+                </a>
+            </li>
+            {% endif %}
+            {% if site.email %}
+            <li>
+                <i class="fa fa-envelope-o fa-fw fa-lg"></i>
+                <a href="mailto:{{ site.email }}">
+                    {{ site.email }}
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+</footer>

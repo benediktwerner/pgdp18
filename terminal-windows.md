@@ -5,8 +5,8 @@ title: Kommandozeile unter Windows
 ### Die Kommandozeile öffnen
 Es gibt je nach Windows Version verschieden Möglichkeiten:
 1. **Alle Windows Versionen:** Drücke <kbd><i class="fa fa-windows"></i></kbd> + <kbd>R</kbd>, gib `cmd` ein und bestätige mit <kbd>Enter</kbd>.
+3. **Alle Windows Versionen:** Klicke in einem Explorer-Fenster auf die Adressleiste, gib `cmd` ein und bestätige mit <kbd>Enter</kbd>. Das öffnet die Kommandozeile in dem selben Ordner wie das Explorer-Fenster.
 2. **Windows 10:** Öffne die Suchleiste (drücke <kbd><i class="fa fa-windows"></i></kbd>), gib `cmd` ein und bestätige mit <kbd>Enter</kbd>.
-3. **Vor Windows 10:** Drücke in einem Explorer-Fenster <kbd><i class="fa fa-arrow-up"></i> Shift</kbd> + <kbd>Rechtsklick</kbd> und dann auf `Eingabeaufforderung hier öffnen`.
 
 Es sollte sich ein Fenster öffnen, dass in etwa so aussieht:
 

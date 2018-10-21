@@ -8,4 +8,4 @@ layout: home
 - [Alle Folien](/~wernerbe/pgdp/assets/slides)
 
 - [Moodle](https://www.moodle.tum.de/course/view.php?id=42050)
-- [Piazza](https://piazza.com/tum.de/fall2018/in0002)
+- [Piazza](https://piazza.com/class/jkcrafyg1pe74j)

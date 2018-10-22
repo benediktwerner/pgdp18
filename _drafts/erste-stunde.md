@@ -27,7 +27,7 @@ Unter Windows musst du eventuell noch Java zum Pfad hinzufügen:
 6. Wähle die Variable `Path` aus, klicke auf `Bearbeiten > Neu` und füge den kopierten Pfad ein
 
 #### Eclipse installieren
-Lade Eclipse SimRel 2018‑09 von der [Eclipse-Website](https://www.eclipse.org/downloads/) herunter und installiere es.
+Lade Eclipse SimRel 2018-09 von der [Eclipse-Website](https://www.eclipse.org/downloads/) herunter und installiere es.
 Wenn du beim installieren aus mehreren Versionen auswählen kannst ist die richtige Version `Eclipse for Java Developers`.
 
 #### UTF-8 Kodierung einstellen

@@ -46,11 +46,11 @@ aus.
 ![Screenshot Terminal file]({{ "/assets/img/file-utf8.png" | absolute_url }})
 
 Die korrekte Kodierung für das PGdP ist `UTF-8 Unicode text`.
+Teilweise werden zusätzlich zur Kodierung noch andere Informationen (z.B. Zeilenendungen) angezeigt.
 Wenn die Datei einen `BOM-Header` hat wird `UTF-8 Unicode (with BOM) text`.
 Um den Header zu entfernen könnt ihr z.B. das Kommando `dos2unix` benutzen.
-Am Besten solltet ihr aber eure IDE so einstellen, dass sie die Dateien gleich korrekt kodiert.
 
-Teilweise werden zusätzlich zur Kodierung noch andere Informationen (z.B. Zeilenendungen) angezeigt.
+Am Besten solltet ihr aber eure IDE so einstellen, dass sie die Dateien gleich korrekt kodiert.
 **Teilweise wirkt sich eine geänderte Kodierung in eurer IDE aber nur auf neue Dateien aus.**
 
 Siehe auch: [Wie benutze ich das Terminal?](terminal-how-to)

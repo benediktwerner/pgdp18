@@ -1,12 +1,11 @@
 ---
 layout: post
 title:  Erste Stunde
-date:   2018-10-22 16:18:00 +0200
+date:   2018-10-25 17:30:00 +0200
 categories: pgdp stunde
 ---
-<!--
 ### Folien
- - [Folien der erste Stunde]({{ "/assets/slides/pgdp-tutorium-1.pdf" | relative_url }}) -->
+ - [Folien der erste Stunde]({{ "/assets/slides/pgdp-tutorium-1.pdf" | relative_url }})
 
 ### Entwicklungsumgebung einrichten
 #### Java installieren

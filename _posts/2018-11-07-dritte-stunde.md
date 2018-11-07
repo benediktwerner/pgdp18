@@ -7,3 +7,5 @@ categories: pgdp stunde
 ### Folien
  - [Folien der dritten Stunde]({{ "/assets/slides/pgdp-tutorium-3.pdf" | relative_url }})
 
+### Lösungen
+ - Aufgabe 3.5: [Bienenmajuskel.java]({{ "/assets/code/Bienenmajuskel.java" | relative_url }})

@@ -1,2 +1,2 @@
 #!/bin/bash
-JEKYLL_ENV=production bundle exec jekyll build && scp -r _site/* wernerbe@lxhalle.in.tum.de:home_page/html-data/pgdp18/
+JEKYLL_ENV=production bundle exec jekyll build && rsync -tz --info=progress2 -r _site/* wernerbe@lxhalle.in.tum.de:home_page/html-data/pgdp18/

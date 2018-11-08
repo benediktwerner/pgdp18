@@ -1,20 +1,25 @@
-package pgdp;
+
 
 public class Bienenmajuskel {
 
     public static void main(String[] args) {
+        
         boolean firstWord = true;
-        String upper = "", pascal = "", startCase = "", snake = "";
+        
+        String upperCase = "";
+        String pascalCase = "";
+        String startCase = "";
+        String snakeCase = "";
 
         while (true) {
             // Nächstes Wort einlesen
             String next = Terminal.askString("Eingabe beenden mit leerem String: ");
 
             if (next.length() == 0) { // Keine Eingabe => Eingabe beendet => Ergebnis ausgeben
-                System.out.println("Uppercase:  " + upper);
+                System.out.println("Uppercase:  " + upperCase);
                 System.out.println("Startcase:  " + startCase);
-                System.out.println("PascalCase: " + pascal);
-                System.out.println("Snake-Case: " + snake);
+                System.out.println("PascalCase: " + pascalCase);
+                System.out.println("Snake-Case: " + snakeCase);
 
                 // Und das Program beenden, indem wir die main-Methode verlassen
                 return;
@@ -35,16 +40,16 @@ public class Bienenmajuskel {
                             startCase += upper(c); // Erster Buchstabe des ersten Worts => Groß
                         else {
                             startCase += lower(c); // Nicht das erste Wort => klein
-                            snake += "_"; // Anfang eines neuen Worts, das nicht das Erste ist, also Unterstrich
+                            snakeCase += "_"; // Anfang eines neuen Worts, das nicht das Erste ist, also Unterstrich
                         }
-                        pascal += upper(c);
+                        pascalCase += upper(c);
                     }
                     else {
-                        pascal += lower(c);    // Klein, da nicht der Anfang eines Worts
+                        pascalCase += lower(c);    // Klein, da nicht der Anfang eines Worts
                         startCase += lower(c);
                     }
-                    snake += lower(c); // Bei snake_case sind alle Buchstaben klein
-                    upper += upper(c); // Bei UPPERCASE  sind alle Buchstaben groß
+                    snakeCase += lower(c); // Bei snake_case sind alle Buchstaben klein
+                    upperCase += upper(c); // Bei UPPERCASE  sind alle Buchstaben groß
                 }
                 firstWord = false; // Jetzt hatten wir ein valides Wort, also ist das nächste nicht mehr das Erste
             }
@@ -77,7 +82,7 @@ public class Bienenmajuskel {
     // Stellt sicher, dass ein Buchstabe groß ist
     private static char upper(char c) {
         if ('a' <= c && c <= 'z')
-            return (char) (c + ('A' - 'a')); // Äquivalent zu ''return (char) (c - 32)'
+            return (char) (c + ('A' - 'a')); // Äquivalent zu 'return (char) (c - 32)'
 
         // Der Buchstabe ist schon groß
         return c;
